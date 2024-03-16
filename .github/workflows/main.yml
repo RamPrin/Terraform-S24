@@ -4,7 +4,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Echo
-        run: echo "Hello World" > file.txt
+        run: echo $MAIN_CMT
 
       - name: Upload
         run: |
